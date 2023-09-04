@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semaforo</title>
+    <link rel="stylesheet" href="./css/style.css">
+
+    <!-- FONTE DO GOOGLE FONT -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="contain-princ-semaf">
+        <div class="fundo-princ-semaf">
+            <div class="btn-iniciar">
+                <h1>Iniciar</h1>
+                <a id="btn-iniciar" onclick="inicio()">
+                    <img src="/img/icons8-green-circle-96.png" alt="">
+                </a>
+            </div>
+            <div class="tamn-semaf">
+                <div class="lights-semaf-esq">
+                    <img id="imgsemaforoVERMELHO" src="/img/icons8-black-circle-96.png" alt="VERMELHO">
+                    <img id="imgsemaforoAMARELO" src="/img/icons8-black-circle-96.png" alt="AMARELO">
+                    <img id="imgsemaforoVERDE" src="/img/icons8-black-circle-96.png" alt="VERDE">
+                </div>
+                <div class="display-semaf">
+                    <div class="crono-display-semaf">
+                        <p class="contagem"></p>
+                    </div>
+                </div>
+                <div class="lights-semaf-dir">
+                    <img id="imgsemaforoVERMELHO2" src="/img/icons8-black-circle-96.png" alt="VERMELHO">
+                    <img id="imgsemaforoAMARELO2" src="/img/icons8-black-circle-96.png" alt="AMARELO">
+                    <img id="imgsemaforoVERDE2" src="/img/icons8-black-circle-96.png" alt="VERDE">
+
+                </div>
+            </div>
+            <div class="btn-pedes-semaf">
+                <h1>Pedestre</h1>
+                <a id="btn-pedestre-semaf" onclick="btnpedestre()">
+                    <img src="/img/icons8-red-circle-96.png" alt="BOTÃO-PEDESTRE">
+                </a>
+            </div>
+        </div>
+    </div>
+    <script src="/script/script.js"></script>
+</body>
+
+
+
+</html>
