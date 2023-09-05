@@ -1,0 +1,9 @@
+RELATÓRIO SEMAFORO
+
+
+    Para estes projetos pensamos em inovar em todos os níveis. Optamos por realizar o PIANO, o SEMAFORO e a CALCULADORA, cada um optou por realizar um nivel diferente, sendo JOÃO (PIANO), HEITOR (SEMAFORO) e RENAN (CALCULADORA).
+
+    No semaforo optamos por fazer um semaforo com display convencional com um botão para pedestres, porem a realização do botão para pedestres não foi finalizada. Para os leds optamos por utilizar imagens de circulos coloridos(VERMELHO, AMARELO, VERDE e PRETO(para representar o led apagado)), definimos um botão como inicio, para dar start ao semaforo. 
+
+    DIFICULDADES:
+        Para a criação do semaforo tive dificuldade em resetar a função, demorei a entender como trocar as imagens, optei por apenas trocar seu caminho, antes utlizando display:none e display:block;

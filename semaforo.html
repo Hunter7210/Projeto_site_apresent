@@ -1,10 +1,14 @@
+<!-- ESTRUTURA PADRÃO DO HTML -->
 <!DOCTYPE html>
 <html lang="pt-br">
+
+<!-- ESTRUTURA HEAD PADRÃO DO HTML -->
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Semaforo</title>
+    <!-- CHAMANDO O STYLE -->
     <link rel="stylesheet" href="./css/style.css">
 
     <!-- FONTE DO GOOGLE FONT -->
@@ -13,44 +17,55 @@
     <link href="https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap" rel="stylesheet">
 </head>
 
+<!-- INICIO ESTRUTURA BODY -->
+
 <body>
+    <!--  DIV para conter todos elementos-->
     <div class="contain-princ-semaf">
+        <!-- div para conter os semaforos e os botoes -->
         <div class="fundo-princ-semaf">
+            <!-- div do botão para iniciar -->
             <div class="btn-iniciar">
                 <h1>Iniciar</h1>
+                <!-- Elemento a para tornar a img clicável -->
                 <a id="btn-iniciar" onclick="inicio()">
-                    <img src="/img/icons8-green-circle-96.png" alt="">
+                    <img src="./img/icons8-green-circle-96.png" alt="">
                 </a>
             </div>
+            <!-- DIV para definir o semaf -->
             <div class="tamn-semaf">
+                <!-- DIV para os leds do lado esquerdo -->
                 <div class="lights-semaf-esq">
-                    <img id="imgsemaforoVERMELHO" src="/img/icons8-black-circle-96.png" alt="VERMELHO">
-                    <img id="imgsemaforoAMARELO" src="/img/icons8-black-circle-96.png" alt="AMARELO">
-                    <img id="imgsemaforoVERDE" src="/img/icons8-black-circle-96.png" alt="VERDE">
+                    <img id="imgsemaforoVERMELHO" src="./img/icons8-black-circle-96.png" alt="VERMELHO">
+                    <img id="imgsemaforoAMARELO" src="./img/icons8-black-circle-96.png" alt="AMARELO">
+                    <img id="imgsemaforoVERDE" src="./img/icons8-black-circle-96.png" alt="VERDE">
                 </div>
+                <!-- DIV para definir o tamnho do display, onde irá aparecer o cronometro -->
                 <div class="display-semaf">
                     <div class="crono-display-semaf">
                         <p class="contagem"></p>
                     </div>
                 </div>
+                <!-- DIV para os leds do lado direito -->
                 <div class="lights-semaf-dir">
-                    <img id="imgsemaforoVERMELHO2" src="/img/icons8-black-circle-96.png" alt="VERMELHO">
-                    <img id="imgsemaforoAMARELO2" src="/img/icons8-black-circle-96.png" alt="AMARELO">
-                    <img id="imgsemaforoVERDE2" src="/img/icons8-black-circle-96.png" alt="VERDE">
-
+                    <img id="imgsemaforoVERMELHO2" src="./img/icons8-black-circle-96.png" alt="VERMELHO">
+                    <img id="imgsemaforoAMARELO2" src="./img/icons8-black-circle-96.png" alt="AMARELO">
+                    <img id="imgsemaforoVERDE2" src="./img/icons8-black-circle-96.png" alt="VERDE">
                 </div>
             </div>
+
+            <!-- div do botão para pedestres -->
             <div class="btn-pedes-semaf">
                 <h1>Pedestre</h1>
+                <!-- Elemento a para tornar a img clicável -->
                 <a id="btn-pedestre-semaf" onclick="btnpedestre()">
-                    <img src="/img/icons8-red-circle-96.png" alt="BOTÃO-PEDESTRE">
+                    <img src="./img/icons8-red-circle-96.png" alt="BOTÃO-PEDESTRE">
                 </a>
             </div>
         </div>
     </div>
-    <script src="/script/script.js"></script>
+
+    <!-- CHAMANDO O SCRIPT -->
+    <script src="./script/script.js"></script>
 </body>
-
-
-
 </html>
